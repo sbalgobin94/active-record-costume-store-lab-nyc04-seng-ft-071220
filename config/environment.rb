@@ -1,6 +1,7 @@
 require "bundler/setup"
 Bundler.require
-require "sinatra/activerecord"
+require "sinatra-activerecord"
+require 'rake'
 require "ostruct"
 require "date"
 require_all 'app/models'
